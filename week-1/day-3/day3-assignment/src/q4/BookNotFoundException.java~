@@ -1,0 +1,9 @@
+package q4;
+
+public class Book_not_found_exception extends RuntimeException
+{
+    public BookNotFoundException(String message)
+    {
+        super(message);
+    }
+}
