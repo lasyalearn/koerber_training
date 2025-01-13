@@ -1,4 +1,4 @@
-package lab_text;
+package lab_test;
 
 import java.io.*;
 import java.util.ArrayList;

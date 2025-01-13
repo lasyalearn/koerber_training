@@ -1,6 +1,4 @@
-package lab_text;
-
-import java.util.Comparator;
+package lab_test;
 
 public class Merch implements Comparable<Merch>
 {
