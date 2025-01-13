@@ -69,6 +69,20 @@ public class Bookapp
         // if not found then we can return null
         // what could be  the execption handling here
 
+        // ordering book
+        Scanner sc= new Scanner(System.in);
+        System.out.println("ordering books");
+        System.out.println("Enter the book isbn that need to be sold");
+        String isbn=sc.next();
+        System.out.println("Enter the book copies that need to be sold");
+        int noofcopies=sc.nextInt();
+        Bookmethods.purchaseBook(isbn,noofcopies,Books);
+        for(Book book: Books)
+        {
+            String s=book.toString();
+            System.out.println(s);
+        }
+        // book not found is already handles so there is no exception handling for this
 
 
 

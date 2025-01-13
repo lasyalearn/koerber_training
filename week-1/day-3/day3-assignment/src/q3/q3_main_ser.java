@@ -16,7 +16,8 @@ public class q3_main_ser
         * Persisted for later reconstruction
         * The reverse process of converting the byte stream back into an object is called deserialization.
         * */
-        Employee employee = new Employee(1,"John Doe","123 Main Street",50000.0);
+        Address address = new Address("bangalore","karnataka","india");
+        Employee employee = new Employee(1,"lasya",address,50000.0);
         //ObjectOutputStream ---> It used to serialize an object into a byte stream
         //ObjectInputStream ---> It used to deserialize a object from the input stream
         // first we need to serialize the object employee

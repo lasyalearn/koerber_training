@@ -8,10 +8,10 @@ public class Employee implements Serializable
 {
     private int id;
     private String name;
-    private String address;
+    private Address address;
     private double salary;
 
-    public Employee(int id,String name,String address, double salary)
+    public Employee(int id,String name,Address address, double salary)
     {
         this.name = name;
         this.address = address;
@@ -27,9 +27,11 @@ public class Employee implements Serializable
     {
         return name;
     }
-    public String getAddress()
+    public void  getAddress()
     {
-        return address;
+        System.out.println(address.getCity());
+        System.out.println(address.getState());
+        System.out.println(address.getCountry());
     }
     public double getSalary()
     {
@@ -44,9 +46,9 @@ public class Employee implements Serializable
     {
         this.name = name;
     }
-    public void setAddress(String address)
+    public void setAddress(Address address)
     {
-        this.address = address;
+
     }
     public void setSalary(double salary)
     {
@@ -57,7 +59,7 @@ public class Employee implements Serializable
         return "Employee{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", address='" + address + '\'' +
+                ", address='" + address.getCity()+" " + address.getState()+ " " + address.getCountry() + '\'' +
                 ", salary=" + salary +
                 '}';
     }
