@@ -1,0 +1,13 @@
+package q1;
+
+import java.util.List;
+
+public class Main
+{        public static void main(String[] args) {
+            List<String> urls= Filedownloader.FileUtil.readFiles("data.txt");
+
+            for(String url: urls){
+                Filedownloader.DownloadManager.download(url);
+            }
+        }
+}

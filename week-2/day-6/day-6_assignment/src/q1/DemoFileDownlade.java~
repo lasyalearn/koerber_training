@@ -1,0 +1,14 @@
+package q1;
+
+import java.util.List;
+
+public class DemoFileDownlade
+{
+    public static void main(String[] args) {
+        List<String> urls=FileUtil.readFiles("data.txt");
+
+//        for(String url: urls){
+//            DownloadManager.download(url);
+//        }
+    }
+}
