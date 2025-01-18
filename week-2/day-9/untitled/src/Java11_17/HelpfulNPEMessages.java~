@@ -1,0 +1,120 @@
+package Java11_17;
+import java.util.ArrayList;
+public class HelpfulNPEMessages {
+
+    class Address {
+        String streetName;
+        String city;
+        String state;
+        String zipCode;
+    }
+
+    class Person {
+        String firstName;
+        String lastName;
+        Integer age;
+        Address address;
+
+        public String getFirstName() {
+            return firstName;
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            HelpfulNPEMessages pm = new HelpfulNPEMessages();
+            pm.example00SimpleNullVariable();
+            pm.example01ComplexObjectNesting();
+            pm.example02MethodReturnsNull();
+            pm.example03ListWithNullElements();
+            pm.example04Autoboxing();
+        } catch (Throwable e) {
+            System.err.println("Ooops, something went wrong with one of our examples:");
+            e.printStackTrace();
+        }
+    }
+
+    private void insertExampleSeparator() {
+        System.err.println("==============================================");
+    }
+
+    public void example00SimpleNullVariable() {
+        insertExampleSeparator();
+        try {
+            Person p = "just something to trick the compiler".length() > 0 ? null : new Person();
+            if (p != null) {
+                System.out.println("My first name is " + p.firstName);
+            } else {
+                System.err.println("Person object is null.");
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void example01ComplexObjectNesting() {
+        insertExampleSeparator();
+        try {
+            Person p = new Person();
+            p.address = new Address();  // Initialize the address
+            System.out.println("My city is " + p.address.city);
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void example02MethodReturnsNull() {
+        insertExampleSeparator();
+        try {
+            Person p = "just something to trick the compiler".length() > 0 ? null : new Person();
+           
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void example03ListWithNullElements() {
+        insertExampleSeparator();
+        ArrayList<Person> persons = new ArrayList<>(10);
+        persons.add(new Person());
+        persons.add(new Person());
+        persons.add(new Person());
+
+        persons.set(0, null);
+        try {
+            if (persons.get(0) != null) {
+                System.out.println("The name of the first person is " + persons.get(0).firstName);
+            } else {
+                System.err.println("The first person in the list is null.");
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+
+        Person[] arrayOfPersons = persons.toArray(new Person[0]);
+        try {
+            if (arrayOfPersons[0] != null) {
+                System.out.println("The name of the first person is " + arrayOfPersons[0].firstName);
+            } else {
+                System.err.println("The first person in the array is null.");
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void example04Autoboxing() {
+        insertExampleSeparator();
+        try {
+            Person person = new Person();
+            if (person.age != null) {
+                int personsAge = person.age;
+                System.out.println("Person's age is: " + personsAge);
+            } else {
+                System.err.println("Person's age is null.");
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+    }
+}

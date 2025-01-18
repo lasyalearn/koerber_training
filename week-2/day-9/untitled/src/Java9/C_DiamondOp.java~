@@ -1,0 +1,28 @@
+package Java9;
+import pojo.Book;
+import java.sql.Array;
+import  java.util.*;
+//diamond operator was introduced in java 7 was enhanced in java 8
+// we don't mention the generic type on the right hand side
+class A
+{
+    void foo()
+    {
+        System.out.println("foo of class A");
+    }
+}
+class B extends  A
+{
+    void foo()
+    {
+        System.out.println("foo of class B override");
+    }
+}
+public class C_DiamondOp
+{
+    public static void main(String[] args)
+    {
+        List<Book> =new ArrayList<>();
+
+    }
+}
