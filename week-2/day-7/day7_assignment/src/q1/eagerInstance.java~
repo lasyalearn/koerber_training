@@ -1,0 +1,13 @@
+package q1;
+private static final Singleton eagerInstance = new Singleton();
+
+// Accessor
+public static Singleton getEagerInstance() {
+    return eagerInstance;
+}
+
+public void main()
+{
+    Singleton eager = Singleton.getEagerInstance();
+    System.out.println("Eager Instance: " + eager);
+}
