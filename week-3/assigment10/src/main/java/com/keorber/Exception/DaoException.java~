@@ -1,0 +1,4 @@
+package com.keorber.Exception;
+
+public class DaoException {
+}
