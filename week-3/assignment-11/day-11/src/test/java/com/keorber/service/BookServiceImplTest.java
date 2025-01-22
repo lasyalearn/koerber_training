@@ -27,17 +27,21 @@ class BookServiceImplTest {
     void testGetAllBooks() {
         List<Book> books = bookService.getAllBooks();
         assertNotNull(books, "The list of books should not be null");
+        // we all the check the size of the  book witht he database
+        // assertEquals((expected)3,(actual) books.size(), (message)"The number of books should be 3");
     }
     @Test
     void testAddBook() {
-        Book book = new Book(3, "S003","Mercury gate", "Tom", 600);
+        Book book = new Book(9, "S009","Supply chain", "Tom", 600);
         Book addedBook = bookService.addBook(book);
+        Book fetchedBook = bookService.getBookById(9);
         assertNotNull(addedBook, "The added book should not be null");
         assertEquals(book.getId(), addedBook.getId(), "The book ID should match");
+        assertEquals(book, fetchedBook, "The fetched book should match");
     }
     @Test
     void testGetBookById() {
-        int bookId = 1;
+        int bookId = 2;
         Book fetchedBook = bookService.getBookById(bookId);
         assertNotNull(fetchedBook, "The fetched book should not be null");
         assertEquals(bookId, fetchedBook.getId(), "The book ID should match");
@@ -62,7 +66,8 @@ class BookServiceImplTest {
 @Test
 void testDeleteBook() {
     int bookId = 1;
-
+    Book updatedBook = new Book(bookId,"S001" ,"infios_new", "koerber_new", 350);
+    bookService.addBook(updatedBook);
     bookService.deleteBook(bookId);
     assertThrows(BookNotFoundError.class, () -> bookService.getBookById(bookId),
             "Fetching a deleted book should throw BookNotFoundError");
