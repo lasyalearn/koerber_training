@@ -1,0 +1,17 @@
+INFO  | 2025-01-22 16:09:17 | [main] factory.GetConnection (GetConnection.java:33) - diver has been loaded
+INFO  | 2025-01-22 16:09:18 | [main] factory.GetConnection (GetConnection.java:35) - connection has been created
+INFO  | 2025-01-22 16:09:18 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:19) - Inside getCustomerById
+INFO  | 2025-01-22 16:09:18 | [main] implementation.CustomerDaoImpl (CustomerDaoImpl.java:33) - Successfully have found the user with this id and returned the user
+INFO  | 2025-01-22 16:09:18 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:23) - service of getting the user is done
+INFO  | 2025-01-22 16:09:18 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:36) - Inside addCustomer
+ERROR | 2025-01-22 16:09:18 | [main] implementation.CustomerDaoImpl (CustomerDaoImpl.java:60) - Unsuccessful. Couldn't add the user
+ERROR | 2025-01-22 16:09:18 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:44) - Could add the given customer
+ERROR | 2025-01-22 16:09:18 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:45) - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'customers.PRIMARY'
+INFO  | 2025-01-22 16:09:29 | [main] factory.GetConnection (GetConnection.java:33) - diver has been loaded
+INFO  | 2025-01-22 16:09:29 | [main] factory.GetConnection (GetConnection.java:35) - connection has been created
+INFO  | 2025-01-22 16:09:29 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:19) - Inside getCustomerById
+INFO  | 2025-01-22 16:09:29 | [main] implementation.CustomerDaoImpl (CustomerDaoImpl.java:33) - Successfully have found the user with this id and returned the user
+INFO  | 2025-01-22 16:09:29 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:23) - service of getting the user is done
+INFO  | 2025-01-22 16:09:29 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:36) - Inside addCustomer
+INFO  | 2025-01-22 16:09:29 | [main] implementation.CustomerDaoImpl (CustomerDaoImpl.java:56) - Successfully have added the user
+INFO  | 2025-01-22 16:09:29 | [main] customerservice.CustomerServiceImp (CustomerServiceImp.java:40) - service of added the user is done
