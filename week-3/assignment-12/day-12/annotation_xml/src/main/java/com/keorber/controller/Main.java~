@@ -17,8 +17,6 @@ public class Main
     {
         ApplicationContext context = new org.springframework.context.support.ClassPathXmlApplicationContext("demo.xml");
         BookService bookService = context.getBean("bookService",BookService.class);
-        //getBean is lookup operation
-
         List<Book> books = bookService.getAllBooks();
         for (Book book : books) {
             System.out.println(Objects.toString(book));

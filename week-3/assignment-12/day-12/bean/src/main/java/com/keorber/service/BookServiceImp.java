@@ -12,16 +12,33 @@ import java.util.Objects;
 import com.keorber.exception.BookNotFoundError;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-@Service
+
 public  class BookServiceImp implements BookService {
 
     //BAD CODE HARD CODING....
+    /*
+    * <bean id="bookService" class="com.keorber.service.BookServiceImp" autowire="byType">
 
+    </bean>
+    * */
     private BookDao dao;
+
+    public BookServiceImp(BookDao dao)
+    {
+        this.dao = dao;
+    }
+
+//    public BookServiceImp(BookDao dao) {
+//        this.dao = dao;
+//    }
+
     // weshould define dao
-    public void setDao(BookDao dao) {
+    public void setDao(BookDao dao)
+    {
         this.dao = dao;
     }
 

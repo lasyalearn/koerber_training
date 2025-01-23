@@ -13,9 +13,8 @@
     <!-- so this is a way to decouple the server implementation from the dao implementation -->
     <!-- first let's define the bean of the service layer as it the one pulling the data -->
     <!-- poperty name should be same as the object name-->
-    <bean id="bookService" class="com.keorber.service.BookServiceImp" autowire="byType">
+    <context:component-scan base-package="com.keorber"/>
+    <context:annotation-config/>
+    <!-- XML configuration  + annotation configuration-->
 
-    </bean>
-    <bean id="bookDao" class="com.keorber.dao.implementation.BookDaoImp">
-    </bean>
 </beans>

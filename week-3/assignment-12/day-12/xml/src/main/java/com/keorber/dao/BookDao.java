@@ -1,12 +1,10 @@
-package com.keorber.service;
+package com.keorber.dao;
 
 import com.keorber.dto.Book;
-import com.keorber.exception.DaoException;
 
 import java.util.List;
-
-public interface
-BookService {
+import com.keorber.exception.DaoException;
+public interface BookDao {
     public List<Book> getAllBooks();
     public Book addBook(Book book);
     public void deleteBook(int id);
