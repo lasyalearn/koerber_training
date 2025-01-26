@@ -1,0 +1,295 @@
+INFO  | 2025-01-21 21:37:32 | [main] controller.Main (Main.java:17) - Getting all books from main
+INFO  | 2025-01-21 21:37:33 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 21:37:33 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 21:37:33 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:37:33 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 21:37:33 | [main] controller.Main (Main.java:25) - Done getting all the books
+INFO  | 2025-01-21 21:47:44 | [main] controller.Main (Main.java:19) - Getting all books from main
+INFO  | 2025-01-21 21:47:44 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 21:47:45 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 21:47:45 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:47:45 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 21:47:45 | [main] controller.Main (Main.java:27) - Done getting all the books
+INFO  | 2025-01-21 21:47:45 | [main] controller.Main (Main.java:38) - Getting book by id from main
+INFO  | 2025-01-21 21:47:45 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:47:45 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 21:47:45 | [main] controller.Main (Main.java:42) - Done getting the book by id
+INFO  | 2025-01-21 21:48:38 | [main] controller.Main (Main.java:19) - Getting all books from main
+INFO  | 2025-01-21 21:48:38 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 21:48:39 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 21:48:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:48:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 21:48:39 | [main] controller.Main (Main.java:27) - Done getting all the books
+INFO  | 2025-01-21 21:48:39 | [main] controller.Main (Main.java:40) - Getting book by id from main
+INFO  | 2025-01-21 21:48:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:48:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 21:48:39 | [main] controller.Main (Main.java:44) - Done getting the book by id
+INFO  | 2025-01-21 21:50:26 | [main] controller.Main (Main.java:21) - Getting all books from main
+INFO  | 2025-01-21 21:50:26 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 21:50:27 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 21:50:27 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:50:27 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 21:50:27 | [main] controller.Main (Main.java:29) - Done getting all the books
+INFO  | 2025-01-21 21:50:27 | [main] controller.Main (Main.java:42) - Getting book by id from main
+INFO  | 2025-01-21 21:50:27 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:50:27 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 21:50:27 | [main] controller.Main (Main.java:46) - Done getting the book by id
+INFO  | 2025-01-21 21:50:27 | [main] controller.Main (Main.java:59) - Adding book from main
+INFO  | 2025-01-21 21:50:27 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:50:27 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 21:50:27 | [main] controller.Main (Main.java:64) - Done adding the book
+INFO  | 2025-01-21 21:57:50 | [main] controller.Main (Main.java:21) - Getting all books from main
+INFO  | 2025-01-21 21:57:50 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 21:57:50 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 21:57:50 | [main] controller.Main (Main.java:29) - Done getting all the books
+INFO  | 2025-01-21 21:57:50 | [main] controller.Main (Main.java:42) - Getting book by id from main
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 21:57:50 | [main] controller.Main (Main.java:46) - Done getting the book by id
+INFO  | 2025-01-21 21:57:50 | [main] controller.Main (Main.java:59) - Adding book from main
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 21:57:50 | [main] controller.Main (Main.java:64) - Done adding the book
+INFO  | 2025-01-21 21:57:50 | [main] controller.Main (Main.java:75) - Deleting a book
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:70) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:71) - deleteBook
+INFO  | 2025-01-21 21:57:50 | [main] controller.Main (Main.java:93) - Updating a book
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:86) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 21:57:50 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:87) - updateBook
+INFO  | 2025-01-21 22:37:43 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:37:43 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:37:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:37:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:38:01 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:38:01 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:38:01 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:38:01 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:39:17 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:39:17 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:39:17 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:39:17 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:41:54 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:41:54 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:41:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:41:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 22:41:55 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:41:55 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:41:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:41:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:48:44 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:48:45 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:48:45 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:48:45 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:48:45 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:48:45 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:48:45 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:48:45 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 22:49:27 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:49:28 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:49:28 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:49:28 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:49:28 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:49:28 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:49:28 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:49:28 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 22:50:15 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:50:16 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:50:16 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:50:16 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:50:16 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:50:16 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:50:16 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:50:16 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 22:50:16 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:50:16 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:50:16 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:50:16 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 22:59:21 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:59:22 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:59:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:59:22 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:59:22 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:59:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 22:59:22 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:59:22 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:59:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 22:59:22 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:59:22 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:59:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 22:59:38 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:59:39 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 22:59:39 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:59:39 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:86) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:87) - updateBook
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 22:59:39 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:59:39 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 22:59:39 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 22:59:39 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 22:59:39 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:00:55 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:00:55 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 23:00:55 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:00:55 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:86) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:87) - updateBook
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:00:55 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:00:55 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:00:55 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:00:55 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:00:55 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:03:11 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:03:12 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 23:03:12 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:03:12 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:03:12 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:03:12 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:70) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:71) - deleteBook
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:03:12 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:03:12 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:03:12 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:04:30 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:04:30 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 23:04:30 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:04:30 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:04:30 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:04:30 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:70) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:71) - deleteBook
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:04:30 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:04:30 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:04:30 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:86) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:87) - updateBook
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:70) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:71) - deleteBook
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:15:59 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:15:59 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:16:42 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:16:43 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 23:16:43 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:16:43 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:16:43 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:16:43 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:70) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:71) - deleteBook
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:16:43 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:16:43 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:16:43 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:17:01 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:17:02 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:24) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:25) - getAllBooks
+INFO  | 2025-01-21 23:17:02 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:17:02 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:17:02 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:17:02 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:70) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:71) - deleteBook
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-21 23:17:02 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-21 23:17:02 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-21 23:17:02 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+INFO  | 2025-01-22 09:14:08 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-22 09:14:09 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-22 09:14:09 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-22 09:14:09 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-22 09:14:38 | [main] factory.GetConnection (GetConnection.java:31) - Driver loaded
+INFO  | 2025-01-22 09:14:38 | [main] factory.GetConnection (GetConnection.java:33) - Database connected
+INFO  | 2025-01-22 09:14:38 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:47) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-22 09:14:38 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:48) - addBook
+INFO  | 2025-01-22 09:14:38 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:106) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-22 09:14:38 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:107) - getBookById
+WARN  | 2025-01-22 19:59:40 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'BookServiceImp' defined in class path resource [demo.xml]: Cannot resolve reference to bean 'BookDaoImp' while setting bean property 'bookDao'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.keorber.dao.BookDaoImp] for bean with name 'BookDaoImp' defined in class path resource [demo.xml]; nested exception is java.lang.ClassNotFoundException: com.keorber.dao.BookDaoImp
+WARN  | 2025-01-22 20:01:09 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'BookServiceImp' defined in class path resource [demo.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'bookDao' of bean class [com.keorber.service.BookServiceImp]: Bean property 'bookDao' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+WARN  | 2025-01-22 20:47:46 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.training.model.persistance.BookDaoImp] for bean with name 'bookDao' defined in class path resource [demo.xml]; nested exception is java.lang.ClassNotFoundException: com.training.model.persistance.BookDaoImp
+WARN  | 2025-01-22 20:49:37 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDao' defined in class path resource [demo.xml]: Cannot resolve reference to bean 'booksMap' while setting bean property 'booksMap'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'booksMap' available
+WARN  | 2025-01-23 11:39:23 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [demo.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'dao' of bean class [com.keorber.service.BookServiceImp]: Bean property 'dao' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+WARN  | 2025-01-23 12:17:35 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [demo.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'dao' of bean class [com.keorber.service.BookServiceImp]: Bean property 'dao' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+WARN  | 2025-01-23 12:23:29 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [demo.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.keorber.service.BookServiceImp]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.keorber.service.BookServiceImp.<init>()
+WARN  | 2025-01-23 12:25:21 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [demo.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'dao' of bean class [com.keorber.service.BookServiceImp]: Bean property 'dao' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+WARN  | 2025-01-23 12:54:20 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [demo.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.keorber.service.BookServiceImp]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.keorber.service.BookServiceImp.<init>()
+WARN  | 2025-01-23 14:44:54 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [demo.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.keorber.service.BookServiceImp]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.keorber.service.BookServiceImp.<init>()
+WARN  | 2025-01-23 14:46:19 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [demo.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'dao' of bean class [com.keorber.service.BookServiceImp]: Bean property 'dao' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+WARN  | 2025-01-23 16:42:23 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.keorber.dao.BookDao' available: expected single matching bean but found 2: bookDaoImp,bookDao
+WARN  | 2025-01-23 16:43:17 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.keorber.dao.BookDao' available: expected single matching bean but found 2: Dao,bookDao
+WARN  | 2025-01-23 16:52:26 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.keorber.dao.BookDao' available: expected single matching bean but found 2: lasyaDao,bookDao
+WARN  | 2025-01-25 22:33:10 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookStoreDaoJDBCImpl' defined in file [C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\java\java_new_training\week-3\assignement-13\q2\target\classes\com\keorber\dao\implementation\BookStoreDaoJDBCImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.keorber.config.app_config: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [${jdbc.drivername}]
+WARN  | 2025-01-25 22:33:59 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookService' defined in com.keorber.config.app_config: Unsatisfied dependency expressed through method 'bookServiceImp' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.keorber.dao.BookDao' available: expected single matching bean but found 2: bookStoreDaoJDBCImpl,bookDao
+WARN  | 2025-01-25 22:36:11 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:599) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookService' defined in com.keorber.config.app_config: Unsatisfied dependency expressed through method 'bookServiceImp' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.keorber.dao.BookDao' available: expected single matching bean but found 2: bookStoreDaoJDBCImpl,bookDao
+INFO  | 2025-01-25 22:37:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:31) - BookStoreDaoJDBCImpl
+INFO  | 2025-01-25 22:37:22 | [main] implementation.BookStoreDaoJDBCImpl (BookStoreDaoJDBCImpl.java:32) - getAllBooks

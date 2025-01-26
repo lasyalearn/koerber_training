@@ -1,0 +1,6 @@
+INFO  | 2025-01-24 15:52:42 | [main] Aspects.LoggableAspect (LoggableAspect.java:18) - Method deleteBook called
+INFO  | 2025-01-24 15:52:42 | [main] Aspects.LoggableAspect (LoggableAspect.java:22) - Method deleteBook took 0 ms
+INFO  | 2025-01-24 16:04:55 | [main] Aspects.LoggableAspect (LoggableAspect.java:18) - Method deleteBook called
+INFO  | 2025-01-24 16:04:55 | [main] implementation.BookDaoImp (BookDaoImp.java:43) - Deleting book with id 1
+INFO  | 2025-01-24 16:04:55 | [main] implementation.BookDaoImp (BookDaoImp.java:45) - Deleting book Book(id=1, isbn=ABC123, title=Head first Java, author=Katthy, price=600.0)
+INFO  | 2025-01-24 16:04:55 | [main] Aspects.LoggableAspect (LoggableAspect.java:22) - Method deleteBook took 1 ms

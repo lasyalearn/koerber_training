@@ -1,0 +1,18 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--	http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--		http://www.springframework.org/schema/context-->
+<!--		http://www.springframework.org/schema/context/spring-context-4.3.xsd">-->
+
+<!--&lt;!&ndash; we have to let spring know that we are going to use spring   &ndash;&gt;-->
+<!--    -->
+<!--&lt;!&ndash;    <bean id="bookService" class="com.keorber.service.BookServiceImpl" autowire="byType">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <property name="bookDao" ref="bookDaoHibernetImpl"/>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    </bean>&ndash;&gt;-->
+<!--&lt;!&ndash;        <bean id="bookDaoJdbcImpl"  primary="true" class="com.keorber.dao.implementation.BookDaoJdbcImpl"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    <bean id="bookDaoHibernetImpl" class="com.keorber.dao.implementation.BookDaoHibernetImpl"/>&ndash;&gt;-->
+<!--</beans>-->
+<!--&lt;!&ndash; xml is not supported by many id replace by annotation&ndash;&gt;-->
