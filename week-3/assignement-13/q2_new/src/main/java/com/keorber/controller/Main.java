@@ -20,8 +20,24 @@ public class Main
         //it is the automatically dependency
         System.out.println( bookService.getAllBooks() );
 
+        Book book = bookService.getBook(6);
+        System.out.println(book);
+
+//        bookService.deleteBook(1);
+//        System.out.println( bookService.getAllBooks() );
+//        System.out.println("deleted id by 1");
+       System.out.println( bookService.getAllBooks() );
+//
+
+//        book = bookService.addBook( new Book(1, "S001", "Game of Thrones", "George Martin", 24.95) );
+//        System.out.println(book);
+//
+//        System.out.println(bookService.getAllBooks());
 
 
+        bookService.updateBook( new Book(1, "S001", "Game of Thrones 2", "George Martin", 24.95) );
+
+        System.out.println(bookService.getAllBooks());
 //        //here total elemination of xml
 //        ApplicationContext context = new AnnotationConfigApplicationContext(app_config.class);
 //        BookService bookService = context.getBean("bookService", BookService.class);

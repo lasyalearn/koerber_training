@@ -61,7 +61,7 @@ public class BookDaoJdbcImpl implements BookDao
     public Book getBook(int id)
     {
         Book book;
-        book=jdbcTemplate.queryForObject("select * from books where id=?", new Object[]{id}, new BookRowMapper());
+        book=jdbcTemplate.queryForObject("select * from books where id=?", , new BookRowMapper(), new Object[]{id});
         return book;
     }
 
