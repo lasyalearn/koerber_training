@@ -1,0 +1,60 @@
+package com.learning.service;
+
+import com.learning.dao.BookDao;
+import com.learning.dto.Book;
+import com.learning.exceptions.BookNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service("bookService")
+public class BookServiceImp implements BookService
+{
+    BookDao bookDao;
+
+    @Autowired
+    public BookServiceImp(BookDao bookDao)
+    {
+        this.bookDao = bookDao;
+    }
+
+    @Override
+    public List<Book> getAllBooks() {
+        return bookDao.findAll();
+    }
+
+    @Override
+    public Book addBook(Book book)
+    {
+        return bookDao.save(book);
+    }
+
+    @Override
+    public void deleteBook(int id)
+    {
+        bookDao.deleteById(id);
+    }
+
+    @Override
+    public void updateBook(int id, Book book)
+    {
+        bookDao.save(book);
+    }
+
+    @Override
+    public Book getBookById(int id)
+    {
+        Optional<Book> book = bookDao.findById(id);
+        if(book.isPresent())
+        {
+            return book.get();
+        }
+        else
+        {
+            throw new BookNotFoundException("Book not found");
+        }
+        //        return bookDao.findById(id).get();
+    }
+}
