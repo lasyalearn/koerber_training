@@ -1,0 +1,116 @@
+package com.BankApp.service;
+
+import com.BankApp.config.Loggable;
+import com.BankApp.dao.BankDao;
+import com.BankApp.dto.Account;
+import com.BankApp.dto.Transfer;
+import com.BankApp.exception.AccountNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class BankServiceImpl implements BankService
+{
+    BankDao bankDao;
+    @Autowired
+    BankServiceImpl(BankDao bankDao)
+    {
+        this.bankDao = bankDao;
+    }
+
+
+
+    @Override
+    public Account createAccount(Account account)
+    {
+        return bankDao.save(account);
+    }
+
+
+
+    @Override
+    public void deleteAccountById(int accountId)
+    {
+
+        bankDao.deleteById(accountId);
+
+    }
+
+    @Override
+    public Account findByAccountId(int accountId)
+    {
+        Optional<Account> account = bankDao.findById(accountId);
+        if(account.isPresent())
+        {
+            return account.get();
+        }
+        else
+        {
+            throw new AccountNotFoundException("Account not found");
+        }
+    }
+
+    @Override
+    public List<Account> getAllAccounts()
+    {
+        return bankDao.findAll();
+    }
+
+    @Override
+    public void updateAccount(Account account, int accountId)
+    {
+        Optional<Account> account1 = bankDao.findById(accountId);
+        if(account1.isPresent())
+        {
+            Account AccountToUpdate = account1.get();
+            AccountToUpdate.setAccountHolderName(account.getAccountHolderName());
+            AccountToUpdate.setAccountType(account.getAccountType());
+            AccountToUpdate.setBalance(account.getBalance());
+            bankDao.save(AccountToUpdate);
+        }
+        else
+        {
+            throw new AccountNotFoundException("Account not found");
+
+        }
+    }
+
+    @Override
+    @Loggable
+    public void transferMoney(Transfer transfer)
+    {
+        int fromAccountId = transfer.getFromId();
+        int toAccountId = transfer.getToId();
+        BigDecimal amount = transfer.getAmount();
+        Account fromAccount = findByAccountId(fromAccountId);
+        Account toAccount = findByAccountId(toAccountId);
+        fromAccount.setBalance(fromAccount.getBalance().subtract(amount));
+        toAccount.setBalance(toAccount.getBalance().add(amount));
+        updateAccount(fromAccount, fromAccountId);
+        updateAccount(toAccount, toAccountId);
+    }
+
+
+    @Override
+    @Loggable
+    public void depositMoney(int accountId, double amount)
+    {
+        Account account = findByAccountId(accountId);
+        account.setBalance(account.getBalance().add(BigDecimal.valueOf(amount)));
+        updateAccount(account, accountId);
+    }
+
+
+    @Override
+    @Loggable
+    public void withdrawMoney(int accountId, double amount)
+    {
+        Account account = findByAccountId(accountId);
+        account.setBalance(account.getBalance().subtract(BigDecimal.valueOf(amount)));
+        updateAccount(account, accountId);
+    }
+}

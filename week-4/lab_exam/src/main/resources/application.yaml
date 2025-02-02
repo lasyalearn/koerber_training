@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: lab
+  datasource:
+    url: jdbc:mysql://localhost:3306/BankApp
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  servlet:
+    context-path: /bankapp
+  port: 8080
+
+management:
+  endpoints:
+    health:
+      show-details: always
+    web:
+      exposure:
+        include: "*"

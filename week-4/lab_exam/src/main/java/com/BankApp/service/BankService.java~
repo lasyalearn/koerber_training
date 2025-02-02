@@ -1,0 +1,17 @@
+package com.BankApp.service;
+
+import com.BankApp.dto.Account;
+
+import java.util.List;
+
+public interface BankService
+{
+    public Account createAccount(Account account);
+    public void updateAccount(Account account, int accountId);
+    public void deleteAccountById(int accountId);
+    public Account findByAccountId(int accountId);
+    public List<Account> getAllAccounts();
+    public void transferMoney(int fromAccountId, int toAccountId, double amount);
+    public void depositMoney(int accountId, double amount);
+    public void withdrawMoney(int accountId, double amount);
+}

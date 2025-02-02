@@ -1,0 +1,203 @@
+INFO  | 2025-01-31 15:21:51 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 8.0.2.Final
+INFO  | 2025-01-31 15:21:51 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting LabApplication using Java 21.0.4 with PID 27148 (C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab\target\classes started by lasya.talasila in C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab)
+INFO  | 2025-01-31 15:21:51 | [main] boot.SpringApplication (SpringApplication.java:654) - No active profile set, falling back to 1 default profile: "default"
+INFO  | 2025-01-31 15:21:52 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:143) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  | 2025-01-31 15:21:52 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:211) - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+INFO  | 2025-01-31 15:21:53 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:111) - Tomcat initialized with port 8080 (http)
+INFO  | 2025-01-31 15:21:53 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:21:53 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2025-01-31 15:21:53 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.34]
+INFO  | 2025-01-31 15:21:53 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+INFO  | 2025-01-31 15:21:53 | [main] context.ServletWebServerApplicationContext (ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1990 ms
+INFO  | 2025-01-31 15:21:53 | [main] util.LogHelper (LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  | 2025-01-31 15:21:53 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 6.5.3.Final
+INFO  | 2025-01-31 15:21:53 | [main] internal.RegionFactoryInitiator (RegionFactoryInitiator.java:50) - HHH000026: Second-level cache disabled
+INFO  | 2025-01-31 15:21:54 | [main] persistenceunit.SpringPersistenceUnitInfo (SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  | 2025-01-31 15:21:54 | [main] hikari.HikariDataSource (HikariDataSource.java:109) - HikariPool-1 - Starting...
+INFO  | 2025-01-31 15:21:54 | [main] pool.HikariPool (HikariPool.java:554) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a07ae2f
+INFO  | 2025-01-31 15:21:54 | [main] hikari.HikariDataSource (HikariDataSource.java:122) - HikariPool-1 - Start completed.
+INFO  | 2025-01-31 15:21:55 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:59) - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  | 2025-01-31 15:21:55 | [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  | 2025-01-31 15:21:55 | [main] jpa.JpaBaseConfiguration$JpaWebConfiguration (JpaBaseConfiguration.java:236) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  | 2025-01-31 15:21:56 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:60) - Exposing 1 endpoint beneath base path '/actuator'
+INFO  | 2025-01-31 15:21:56 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:21:56 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:243) - Tomcat started on port 8080 (http) with context path '/bankapp'
+INFO  | 2025-01-31 15:21:56 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:56) - Started LabApplication in 5.906 seconds (process running for 6.712)
+INFO  | 2025-01-31 15:22:16 | [http-nio-8080-exec-2] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:22:16 | [http-nio-8080-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:22:16 | [http-nio-8080-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:554) - Completed initialization in 1 ms
+INFO  | 2025-01-31 15:24:43 | [SpringApplicationShutdownHook] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  | 2025-01-31 15:24:43 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:349) - HikariPool-1 - Shutdown initiated...
+INFO  | 2025-01-31 15:24:43 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:351) - HikariPool-1 - Shutdown completed.
+INFO  | 2025-01-31 15:47:00 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 8.0.2.Final
+INFO  | 2025-01-31 15:47:00 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting LabApplication using Java 21.0.4 with PID 30920 (C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab\target\classes started by lasya.talasila in C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab)
+INFO  | 2025-01-31 15:47:00 | [main] boot.SpringApplication (SpringApplication.java:654) - No active profile set, falling back to 1 default profile: "default"
+INFO  | 2025-01-31 15:47:01 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:143) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  | 2025-01-31 15:47:01 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:211) - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+INFO  | 2025-01-31 15:47:02 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:111) - Tomcat initialized with port 8080 (http)
+INFO  | 2025-01-31 15:47:02 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:47:02 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2025-01-31 15:47:02 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.34]
+INFO  | 2025-01-31 15:47:02 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+INFO  | 2025-01-31 15:47:02 | [main] context.ServletWebServerApplicationContext (ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 2226 ms
+INFO  | 2025-01-31 15:47:03 | [main] util.LogHelper (LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  | 2025-01-31 15:47:03 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 6.5.3.Final
+INFO  | 2025-01-31 15:47:03 | [main] internal.RegionFactoryInitiator (RegionFactoryInitiator.java:50) - HHH000026: Second-level cache disabled
+INFO  | 2025-01-31 15:47:03 | [main] persistenceunit.SpringPersistenceUnitInfo (SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  | 2025-01-31 15:47:03 | [main] hikari.HikariDataSource (HikariDataSource.java:109) - HikariPool-1 - Starting...
+INFO  | 2025-01-31 15:47:03 | [main] pool.HikariPool (HikariPool.java:554) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64fba3e6
+INFO  | 2025-01-31 15:47:03 | [main] hikari.HikariDataSource (HikariDataSource.java:122) - HikariPool-1 - Start completed.
+INFO  | 2025-01-31 15:47:04 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:59) - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  | 2025-01-31 15:47:04 | [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  | 2025-01-31 15:47:05 | [main] jpa.JpaBaseConfiguration$JpaWebConfiguration (JpaBaseConfiguration.java:236) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  | 2025-01-31 15:47:06 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:60) - Exposing 14 endpoints beneath base path '/actuator'
+INFO  | 2025-01-31 15:47:06 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:47:06 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:243) - Tomcat started on port 8080 (http) with context path '/bankapp'
+INFO  | 2025-01-31 15:47:06 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:56) - Started LabApplication in 6.517 seconds (process running for 7.359)
+INFO  | 2025-01-31 15:47:10 | [http-nio-8080-exec-6] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:47:10 | [http-nio-8080-exec-6] servlet.FrameworkServlet (FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:47:10 | [http-nio-8080-exec-6] servlet.FrameworkServlet (FrameworkServlet.java:554) - Completed initialization in 1 ms
+INFO  | 2025-01-31 15:47:39 | [SpringApplicationShutdownHook] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  | 2025-01-31 15:47:39 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:349) - HikariPool-1 - Shutdown initiated...
+INFO  | 2025-01-31 15:47:39 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:351) - HikariPool-1 - Shutdown completed.
+INFO  | 2025-01-31 15:48:18 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 8.0.2.Final
+INFO  | 2025-01-31 15:48:18 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting LabApplication using Java 21.0.4 with PID 27304 (C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab\target\classes started by lasya.talasila in C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab)
+INFO  | 2025-01-31 15:48:18 | [main] boot.SpringApplication (SpringApplication.java:654) - No active profile set, falling back to 1 default profile: "default"
+INFO  | 2025-01-31 15:48:19 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:143) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  | 2025-01-31 15:48:19 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:211) - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+INFO  | 2025-01-31 15:48:20 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:111) - Tomcat initialized with port 8080 (http)
+INFO  | 2025-01-31 15:48:20 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:48:20 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2025-01-31 15:48:20 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.34]
+INFO  | 2025-01-31 15:48:20 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+INFO  | 2025-01-31 15:48:20 | [main] context.ServletWebServerApplicationContext (ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 2170 ms
+INFO  | 2025-01-31 15:48:21 | [main] util.LogHelper (LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  | 2025-01-31 15:48:21 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 6.5.3.Final
+INFO  | 2025-01-31 15:48:21 | [main] internal.RegionFactoryInitiator (RegionFactoryInitiator.java:50) - HHH000026: Second-level cache disabled
+INFO  | 2025-01-31 15:48:21 | [main] persistenceunit.SpringPersistenceUnitInfo (SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  | 2025-01-31 15:48:21 | [main] hikari.HikariDataSource (HikariDataSource.java:109) - HikariPool-1 - Starting...
+INFO  | 2025-01-31 15:48:22 | [main] pool.HikariPool (HikariPool.java:554) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@141234df
+INFO  | 2025-01-31 15:48:22 | [main] hikari.HikariDataSource (HikariDataSource.java:122) - HikariPool-1 - Start completed.
+INFO  | 2025-01-31 15:48:22 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:59) - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  | 2025-01-31 15:48:22 | [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  | 2025-01-31 15:48:23 | [main] jpa.JpaBaseConfiguration$JpaWebConfiguration (JpaBaseConfiguration.java:236) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  | 2025-01-31 15:48:24 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:60) - Exposing 14 endpoints beneath base path '/actuator'
+INFO  | 2025-01-31 15:48:25 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:48:25 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:243) - Tomcat started on port 8080 (http) with context path '/bankapp'
+INFO  | 2025-01-31 15:48:25 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:56) - Started LabApplication in 7.09 seconds (process running for 7.886)
+INFO  | 2025-01-31 15:48:28 | [http-nio-8080-exec-1] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:48:28 | [http-nio-8080-exec-1] servlet.FrameworkServlet (FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:48:28 | [http-nio-8080-exec-1] servlet.FrameworkServlet (FrameworkServlet.java:554) - Completed initialization in 1 ms
+INFO  | 2025-01-31 15:48:39 | [http-nio-8080-exec-2] config.LoggableAspect (LoggableAspect.java:18) - Executing method: transferMoney
+INFO  | 2025-01-31 15:48:39 | [http-nio-8080-exec-2] config.LoggableAspect (LoggableAspect.java:23) - *****************************************************************************
+INFO  | 2025-01-31 15:48:39 | [http-nio-8080-exec-2] config.LoggableAspect (LoggableAspect.java:24) - Execution time: 48 ms
+INFO  | 2025-01-31 15:49:17 | [SpringApplicationShutdownHook] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  | 2025-01-31 15:49:17 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:349) - HikariPool-1 - Shutdown initiated...
+INFO  | 2025-01-31 15:49:17 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:351) - HikariPool-1 - Shutdown completed.
+INFO  | 2025-01-31 15:49:54 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 8.0.2.Final
+INFO  | 2025-01-31 15:49:54 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting LabApplication using Java 21.0.4 with PID 33800 (C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab\target\classes started by lasya.talasila in C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab)
+INFO  | 2025-01-31 15:49:54 | [main] boot.SpringApplication (SpringApplication.java:654) - No active profile set, falling back to 1 default profile: "default"
+INFO  | 2025-01-31 15:49:55 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:143) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  | 2025-01-31 15:49:55 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:211) - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+INFO  | 2025-01-31 15:49:56 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:111) - Tomcat initialized with port 8080 (http)
+INFO  | 2025-01-31 15:49:56 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:49:56 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2025-01-31 15:49:56 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.34]
+INFO  | 2025-01-31 15:49:56 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+INFO  | 2025-01-31 15:49:56 | [main] context.ServletWebServerApplicationContext (ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1975 ms
+INFO  | 2025-01-31 15:49:57 | [main] util.LogHelper (LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  | 2025-01-31 15:49:57 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 6.5.3.Final
+INFO  | 2025-01-31 15:49:57 | [main] internal.RegionFactoryInitiator (RegionFactoryInitiator.java:50) - HHH000026: Second-level cache disabled
+INFO  | 2025-01-31 15:49:57 | [main] persistenceunit.SpringPersistenceUnitInfo (SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  | 2025-01-31 15:49:57 | [main] hikari.HikariDataSource (HikariDataSource.java:109) - HikariPool-1 - Starting...
+INFO  | 2025-01-31 15:49:58 | [main] pool.HikariPool (HikariPool.java:554) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65698020
+INFO  | 2025-01-31 15:49:58 | [main] hikari.HikariDataSource (HikariDataSource.java:122) - HikariPool-1 - Start completed.
+INFO  | 2025-01-31 15:49:59 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:59) - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  | 2025-01-31 15:49:59 | [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  | 2025-01-31 15:49:59 | [main] jpa.JpaBaseConfiguration$JpaWebConfiguration (JpaBaseConfiguration.java:236) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  | 2025-01-31 15:50:01 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:60) - Exposing 14 endpoints beneath base path '/actuator'
+INFO  | 2025-01-31 15:50:01 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:50:01 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:243) - Tomcat started on port 8080 (http) with context path '/bankapp'
+INFO  | 2025-01-31 15:50:01 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:56) - Started LabApplication in 6.777 seconds (process running for 7.548)
+INFO  | 2025-01-31 15:50:06 | [http-nio-8080-exec-2] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:50:06 | [http-nio-8080-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:50:06 | [http-nio-8080-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:554) - Completed initialization in 1 ms
+INFO  | 2025-01-31 15:50:06 | [http-nio-8080-exec-2] config.LoggableAspect (LoggableAspect.java:18) - Executing method: transferMoney
+INFO  | 2025-01-31 15:50:06 | [http-nio-8080-exec-2] config.LoggableAspect (LoggableAspect.java:23) - *****************************************************************************
+INFO  | 2025-01-31 15:50:06 | [http-nio-8080-exec-2] config.LoggableAspect (LoggableAspect.java:24) - Execution time: 91 ms
+INFO  | 2025-01-31 15:50:19 | [http-nio-8080-exec-3] config.LoggableAspect (LoggableAspect.java:18) - Executing method: depositMoney
+INFO  | 2025-01-31 15:50:19 | [http-nio-8080-exec-3] config.LoggableAspect (LoggableAspect.java:23) - *****************************************************************************
+INFO  | 2025-01-31 15:50:19 | [http-nio-8080-exec-3] config.LoggableAspect (LoggableAspect.java:24) - Execution time: 12 ms
+INFO  | 2025-01-31 15:50:44 | [SpringApplicationShutdownHook] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  | 2025-01-31 15:50:44 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:349) - HikariPool-1 - Shutdown initiated...
+INFO  | 2025-01-31 15:50:44 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:351) - HikariPool-1 - Shutdown completed.
+INFO  | 2025-01-31 15:55:07 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 8.0.2.Final
+INFO  | 2025-01-31 15:55:07 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting LabApplication using Java 21.0.4 with PID 16112 (C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab\target\classes started by lasya.talasila in C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab)
+INFO  | 2025-01-31 15:55:07 | [main] boot.SpringApplication (SpringApplication.java:654) - No active profile set, falling back to 1 default profile: "default"
+INFO  | 2025-01-31 15:55:08 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:143) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  | 2025-01-31 15:55:08 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:211) - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+INFO  | 2025-01-31 15:55:09 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:111) - Tomcat initialized with port 8080 (http)
+INFO  | 2025-01-31 15:55:09 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:55:09 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2025-01-31 15:55:09 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.34]
+INFO  | 2025-01-31 15:55:09 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+INFO  | 2025-01-31 15:55:09 | [main] context.ServletWebServerApplicationContext (ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 2330 ms
+INFO  | 2025-01-31 15:55:10 | [main] util.LogHelper (LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  | 2025-01-31 15:55:10 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 6.5.3.Final
+INFO  | 2025-01-31 15:55:10 | [main] internal.RegionFactoryInitiator (RegionFactoryInitiator.java:50) - HHH000026: Second-level cache disabled
+INFO  | 2025-01-31 15:55:10 | [main] persistenceunit.SpringPersistenceUnitInfo (SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  | 2025-01-31 15:55:10 | [main] hikari.HikariDataSource (HikariDataSource.java:109) - HikariPool-1 - Starting...
+INFO  | 2025-01-31 15:55:11 | [main] pool.HikariPool (HikariPool.java:554) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3794b7b1
+INFO  | 2025-01-31 15:55:11 | [main] hikari.HikariDataSource (HikariDataSource.java:122) - HikariPool-1 - Start completed.
+INFO  | 2025-01-31 15:55:11 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:59) - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  | 2025-01-31 15:55:11 | [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  | 2025-01-31 15:55:12 | [main] jpa.JpaBaseConfiguration$JpaWebConfiguration (JpaBaseConfiguration.java:236) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  | 2025-01-31 15:55:14 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:60) - Exposing 14 endpoints beneath base path '/actuator'
+INFO  | 2025-01-31 15:55:14 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 15:55:14 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:243) - Tomcat started on port 8080 (http) with context path '/bankapp'
+INFO  | 2025-01-31 15:55:14 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:56) - Started LabApplication in 7.503 seconds (process running for 8.289)
+INFO  | 2025-01-31 15:55:47 | [http-nio-8080-exec-2] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:55:47 | [http-nio-8080-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+INFO  | 2025-01-31 15:55:47 | [http-nio-8080-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:554) - Completed initialization in 1 ms
+INFO  | 2025-01-31 15:55:47 | [http-nio-8080-exec-10] api.AbstractOpenApiResource (AbstractOpenApiResource.java:387) - Init duration for springdoc-openapi is: 246 ms
+INFO  | 2025-01-31 16:00:12 | [http-nio-8080-exec-5] config.LoggableAspect (LoggableAspect.java:18) - Executing method: withdrawMoney
+INFO  | 2025-01-31 16:00:12 | [http-nio-8080-exec-5] config.LoggableAspect (LoggableAspect.java:22) - *****************************************************************************
+INFO  | 2025-01-31 16:00:12 | [http-nio-8080-exec-5] config.LoggableAspect (LoggableAspect.java:23) - Execution time: 103 ms
+WARN  | 2025-01-31 16:42:01 | [HikariPool-1 housekeeper] pool.HikariPool$HouseKeeper (HikariPool.java:797) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m49s722ms28µs).
+INFO  | 2025-01-31 16:46:37 | [SpringApplicationShutdownHook] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  | 2025-01-31 16:46:37 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:349) - HikariPool-1 - Shutdown initiated...
+INFO  | 2025-01-31 16:46:37 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:351) - HikariPool-1 - Shutdown completed.
+INFO  | 2025-01-31 16:52:24 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 8.0.2.Final
+INFO  | 2025-01-31 16:52:24 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting LabApplication using Java 21.0.4 with PID 36116 (C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab\target\classes started by lasya.talasila in C:\Users\lasya.talasila\OneDrive - Körber Supply Chain Software\Desktop\maven_test\learning_aop\learningBankApplication\lab)
+INFO  | 2025-01-31 16:52:24 | [main] boot.SpringApplication (SpringApplication.java:654) - No active profile set, falling back to 1 default profile: "default"
+INFO  | 2025-01-31 16:52:25 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:143) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  | 2025-01-31 16:52:25 | [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:211) - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+INFO  | 2025-01-31 16:52:26 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:111) - Tomcat initialized with port 8080 (http)
+INFO  | 2025-01-31 16:52:26 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 16:52:26 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2025-01-31 16:52:26 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.34]
+INFO  | 2025-01-31 16:52:26 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+INFO  | 2025-01-31 16:52:26 | [main] context.ServletWebServerApplicationContext (ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 2171 ms
+INFO  | 2025-01-31 16:52:27 | [main] util.LogHelper (LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  | 2025-01-31 16:52:27 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 6.5.3.Final
+INFO  | 2025-01-31 16:52:27 | [main] internal.RegionFactoryInitiator (RegionFactoryInitiator.java:50) - HHH000026: Second-level cache disabled
+INFO  | 2025-01-31 16:52:27 | [main] persistenceunit.SpringPersistenceUnitInfo (SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  | 2025-01-31 16:52:27 | [main] hikari.HikariDataSource (HikariDataSource.java:109) - HikariPool-1 - Starting...
+INFO  | 2025-01-31 16:52:27 | [main] pool.HikariPool (HikariPool.java:554) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64fba3e6
+INFO  | 2025-01-31 16:52:27 | [main] hikari.HikariDataSource (HikariDataSource.java:122) - HikariPool-1 - Start completed.
+INFO  | 2025-01-31 16:52:28 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:59) - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  | 2025-01-31 16:52:28 | [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  | 2025-01-31 16:52:29 | [main] jpa.JpaBaseConfiguration$JpaWebConfiguration (JpaBaseConfiguration.java:236) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  | 2025-01-31 16:52:30 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:60) - Exposing 14 endpoints beneath base path '/actuator'
+INFO  | 2025-01-31 16:52:30 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+INFO  | 2025-01-31 16:52:30 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:243) - Tomcat started on port 8080 (http) with context path '/bankapp'
+INFO  | 2025-01-31 16:52:30 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:56) - Started LabApplication in 7.076 seconds (process running for 7.892)
+INFO  | 2025-01-31 16:53:47 | [http-nio-8080-exec-3] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  | 2025-01-31 16:53:47 | [http-nio-8080-exec-3] servlet.FrameworkServlet (FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+INFO  | 2025-01-31 16:53:47 | [http-nio-8080-exec-3] servlet.FrameworkServlet (FrameworkServlet.java:554) - Completed initialization in 1 ms
+INFO  | 2025-01-31 16:54:08 | [http-nio-8080-exec-5] config.LoggableAspect (LoggableAspect.java:18) - Executing method: transferMoney
+INFO  | 2025-01-31 16:54:08 | [http-nio-8080-exec-5] config.LoggableAspect (LoggableAspect.java:22) - *****************************************************************************
+INFO  | 2025-01-31 16:54:08 | [http-nio-8080-exec-5] config.LoggableAspect (LoggableAspect.java:23) - Execution time: 98 ms
+INFO  | 2025-01-31 17:23:17 | [SpringApplicationShutdownHook] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  | 2025-01-31 17:23:17 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:349) - HikariPool-1 - Shutdown initiated...
+INFO  | 2025-01-31 17:23:17 | [SpringApplicationShutdownHook] hikari.HikariDataSource (HikariDataSource.java:351) - HikariPool-1 - Shutdown completed.
