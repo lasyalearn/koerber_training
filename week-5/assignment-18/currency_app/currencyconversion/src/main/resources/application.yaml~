@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: currencyconversion
+server:
+  port: 8100
+
