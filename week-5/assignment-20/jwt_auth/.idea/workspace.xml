@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5631304d-086a-4169-9082-4c81526ae5d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/config/ConversionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/config/SecConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/config/SecUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/dao/BookRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/dao/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/dto/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/entites/BookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/entites/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/service/DetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic_auth/BasicAuth/src/main/java/com/BookApplication/service/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2skiiKCp2132gGxUFl51SlzBQMf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lasya.talasila/OneDrive - Körber Supply Chain Software/Desktop/java/java_new_training/week-5/assignment-20/jwt_auth/BasicAuth"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5631304d-086a-4169-9082-4c81526ae5d6" name="Changes" comment="" />
+      <created>1739006099319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739006099319</updated>
+    </task>
+    <servers />
+  </component>
+</project>
