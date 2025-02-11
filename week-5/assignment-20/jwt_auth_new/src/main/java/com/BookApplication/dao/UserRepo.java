@@ -1,0 +1,16 @@
+package com.BookApplication.dao;
+
+import com.BookApplication.entites.UserEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface UserRepo extends JpaRepository<UserEntity, Integer>
+{
+    //public void addUserEntity(UserEntity userEntity);
+
+    public UserEntity findByUsername(String username);
+
+}

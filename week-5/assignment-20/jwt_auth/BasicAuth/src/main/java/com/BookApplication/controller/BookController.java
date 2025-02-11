@@ -68,7 +68,7 @@ public class BookController
 //    {
 //        bookService.deleteBook(bookId);
 //    }
-@PreAuthorize("hasRole('TEACHER')")
+@PreAuthorize("hasAnyAuthority('ROLE_Teacher', 'ROLE_Student')")
 @DeleteMapping("/api/books/delete/{id}")
 public ResponseEntity<?> deleteBook(@PathVariable int id) {
     bookService.deleteBook(id);
