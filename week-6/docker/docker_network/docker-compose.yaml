@@ -1,0 +1,19 @@
+version: "3"
+services:
+    currency-conversion:
+      build: ./currencyconversion
+      ports:
+        - "8100:8100"
+      networks:
+        - ce-cc
+      depends_on:
+        - currency-exchange
+
+    currency-exchange:
+      build: ./currencyexchange
+      ports:
+        - "8080:8080"
+      networks:
+        - ce-cc
+networks:
+  ce-cc:

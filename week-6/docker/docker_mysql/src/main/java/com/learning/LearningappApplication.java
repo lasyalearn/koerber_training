@@ -1,0 +1,36 @@
+package com.learning;
+
+import com.learning.dao.BookDao;
+import com.learning.dto.Book;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.math.BigDecimal;
+
+@SpringBootApplication
+public class LearningappApplication implements CommandLineRunner
+{
+
+	public static void main(String[] args)
+	{
+		SpringApplication.run(LearningappApplication.class, args);
+	}
+
+	BookDao bookDao;
+	@Autowired
+	public LearningappApplication(BookDao bookDao)
+	{
+		this.bookDao = bookDao;
+	}
+
+	@Override
+	public void run(String... args) throws Exception
+	{
+			bookDao.save(new Book("S001", "Book1", "Author1", BigDecimal.valueOf(500)));
+			bookDao.save(new Book("S002", "Book2", "Author2", BigDecimal.valueOf(600)));
+			bookDao.save(new Book("S003", "Book3", "Author3", BigDecimal.valueOf(100)));
+
+	}
+}

@@ -1,0 +1,5 @@
+FROM openjdk:21
+MAINTAINER email: lasyatalasila26@gmail.com
+EXPOSE 8081
+ADD target/orderapp-1.6.jar orderapp.jar
+ENTRYPOINT ["java","-jar","orderapp.jar"]

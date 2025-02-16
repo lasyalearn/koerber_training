@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: currencyconversion
+  cloud:
+    openfeign:
+      circuitBreaker:
+        enabled: true
+# openfeign won't support circuit breaker is default disabled
+server:
+  port: 8100
+
+currencyexchange:
+  service:
+    url: http://currency-exchange:8080
+
+
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        sliding-window-size: 10
+        permitted-number-of-calls-in-half-open-state: 2
+        automatic-transition-from-open-to-half-open-enabled: true
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+        wait-duration-in-half-open-state: 5s
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
