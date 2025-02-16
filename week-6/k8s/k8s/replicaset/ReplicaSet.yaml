@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: bookapp-rs
+spec:
+  selector:
+    matchLabels:
+      app: bookstore-app
+  replicas: 4
+  template:
+    metadata:
+      name: bookapp-pod
+      labels:
+        app: bookstore-app
+    spec:
+      containers:
+      - name: bookstore
+        image: pes2ug21cs254lasyatalasila/bookapp:1.1

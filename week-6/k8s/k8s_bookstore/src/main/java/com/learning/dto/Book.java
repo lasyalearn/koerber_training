@@ -1,0 +1,49 @@
+package com.learning.dto;
+
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.Range;
+
+import java.math.BigDecimal;
+
+// the table creation part
+// not empty in string allow u to leave blank
+// not blank will not allwo u to leave blank
+// + both don't allow  null or empty
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "book_table")
+public class Book
+{
+    @Id
+    @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
+    @Column(name = "id")
+    private int id;
+    @Column(name = "isbn")
+    @NotEmpty(message = "isbn cannot be empty")
+    private String isbn;
+    @Column(name = "title")
+    @NotEmpty(message = "title cannot be empty")
+    private String title;
+    @Column(name = "author")
+    @NotEmpty(message = "author cannot be empty")
+    private String author;
+    @Column(name = "price")
+    @NotNull(message = "price cannot be null")
+    @Range(min = 100, max = 1000, message = "price must be between 100 and 1000")
+    private BigDecimal price;
+
+    public Book(String isbn, String title, String author, BigDecimal price)
+    {
+        this.isbn = isbn;
+        this.title = title;
+        this.author = author;
+        this.price = price;
+    }
+}
