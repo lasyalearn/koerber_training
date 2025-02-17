@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ce
+  profiles:
+    active: test
+  config:
+    import: "optional:configserver:http://localhost:8090"
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
