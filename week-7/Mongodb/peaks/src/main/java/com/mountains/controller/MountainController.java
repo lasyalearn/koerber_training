@@ -1,9 +1,9 @@
 package com.mountains.controller;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mountains.dao.MountainDao;
 import com.mountains.dto.Mountains;
+import com.mountains.service.MountainService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,123 +11,79 @@ import java.util.List;
 @RestController
 @RequestMapping("/mountains")
 public class MountainController {
-    @Autowired
-    private ObjectMapper objectMapper;
 
     @Autowired
-    private MountainDao mountainDao;
-    @GetMapping("/")
+    private MountainService mountainService;
+
+    // 1. Get all mountains
+    @GetMapping("/all")
     public List<Mountains> getAllMountains() {
-        return mountainDao.findAll();
+        return mountainService.findAll();
     }
 
-    // Get a mountain by name
-    @GetMapping("/{name}")
-    public String getMountainByName(@PathVariable String name) {
-        try {
-            Mountains mountain = mountainDao.findByName(name);
-            return objectMapper.writeValueAsString(mountain);  // Serialize mountain to JSON
-        } catch (Exception e) {
-            return "Error serializing mountain: " + e.getMessage();
-        }
+    // 2. Get mountain by name
+    @GetMapping("/name/{name}")
+    public Mountains getMountainByName(@PathVariable String name) {
+        return mountainService.findByName(name);
     }
 
-    // Get mountains where name is not equal to the given name
-    @GetMapping("/not/{name}")
-    public String getMountainsNotByName(@PathVariable String name) {
-        try {
-            List<Mountains> mountains = mountainDao.findByNameNot(name);
-            return objectMapper.writeValueAsString(mountains);  // Serialize list to JSON
-        } catch (Exception e) {
-            return "Error serializing mountains: " + e.getMessage();
-        }
+    // 3. Get mountains excluding a specific name
+    @GetMapping("/name/not/{name}")
+    public List<Mountains> getMountainsByNameNot(@PathVariable String name) {
+        return mountainService.findByNameNot(name);
     }
 
-    // Get mountains taller than a given height
+    // 4. Get mountains taller than a given height
     @GetMapping("/height/greater/{height}")
-    public String getMountainsByHeight(@PathVariable int height) {
-        try {
-            List<Mountains> mountains = mountainDao.findByHeightGreaterThan(height);
-            return objectMapper.writeValueAsString(mountains);  // Serialize list to JSON
-        } catch (Exception e) {
-            return "Error serializing mountains: " + e.getMessage();
-        }
+    public List<Mountains> getMountainsByHeightGreaterThan(@PathVariable int height) {
+        return mountainService.findByHeightGreaterThan(height);
     }
 
-    // Get mountains by name and taller than a given height
-    @GetMapping(" ") 
-    public String getMountainsByNameAndHeight(@RequestParam String name, @RequestParam int height) {
-        try {
-            List<Mountains> mountains = mountainDao.findByNameAndHeightGreaterThan(name, height);
-            return objectMapper.writeValueAsString(mountains);  // Serialize list to JSON
-        } catch (Exception e) {
-            return "Error serializing mountains: " + e.getMessage();
-        }
+    // 5. Get mountains by name and height greater than a value
+    @GetMapping("/name/{name}/height/greater/{height}")
+    public List<Mountains> getMountainsByNameAndHeightGreaterThan(@PathVariable String name, @PathVariable int height) {
+        return mountainService.findByNameAndHeightGreaterThan(name, height);
     }
 
-    // Get mountains by name or taller than a given height
-    @GetMapping("/name-or-height")
-    public String getMountainsByNameOrHeight(@RequestParam String name, @RequestParam int height) {
-        try {
-            List<Mountains> mountains = mountainDao.findByNameOrHeightGreaterThan(name, height);
-            return objectMapper.writeValueAsString(mountains);  // Serialize list to JSON
-        } catch (Exception e) {
-            return "Error serializing mountains: " + e.getMessage();
-        }
+    // 6. Get mountains by name or height greater than a value
+    @GetMapping("/name/{name}/or/height/greater/{height}")
+    public List<Mountains> getMountainsByNameOrHeightGreaterThan(@PathVariable String name, @PathVariable int height) {
+        return mountainService.findByNameOrHeightGreaterThan(name, height);
     }
 
-    // Get mountains by location
+    // 7. Get mountains by location
     @GetMapping("/location/{location}")
-    public String getMountainsByLocation(@PathVariable String location) {
-        try {
-            List<Mountains> mountains = mountainDao.findByLocation(location);
-            return objectMapper.writeValueAsString(mountains);  // Serialize list to JSON
-        } catch (Exception e) {
-            return "Error serializing mountains: " + e.getMessage();
-        }
+    public List<Mountains> getMountainsByLocation(@PathVariable String location) {
+        return mountainService.findByLocation(location);
     }
 
-    // Get mountains by multiple locations
+    // 8. Get mountains by multiple locations
     @PostMapping("/locations")
-    public String getMountainsByLocations(@RequestBody List<String> locations) {
-        try {
-            List<Mountains> mountains = mountainDao.findByLocationIn(locations);
-            return objectMapper.writeValueAsString(mountains);  // Serialize list to JSON
-        } catch (Exception e) {
-            return "Error serializing mountains: " + e.getMessage();
-        }
+    public List<Mountains> getMountainsByLocations(@RequestBody List<String> locations) {
+        return mountainService.findByLocationIn(locations);
     }
 
-    // Get mountains where total ascents are greater than a given value
+    // 9. Get mountains with ascent total greater than a given number
     @GetMapping("/ascents/greater/{ascents}")
-    public String getMountainsByAscents(@PathVariable int ascents) {
-        try {
-            List<Mountains> mountains = mountainDao.findByAscentsTotalGreaterThan(ascents);
-            return objectMapper.writeValueAsString(mountains);  // Serialize list to JSON
-        } catch (Exception e) {
-            return "Error serializing mountains: " + e.getMessage();
-        }
+    public List<Mountains> getMountainsByAscentsTotalGreaterThan(@PathVariable int ascents) {
+        return mountainService.findByAscentsTotalGreaterThan(ascents);
     }
 
-    // Add a new mountain
-    @PostMapping("/")
-    public String addMountain(@RequestBody Mountains mountain) {
-        try {
-            Mountains savedMountain = mountainDao.save(mountain);
-            return objectMapper.writeValueAsString(savedMountain);  // Serialize the saved mountain to JSON
-        } catch (Exception e) {
-            return "Error saving mountain: " + e.getMessage();
-        }
+    // 10. Get mountains first ascended in winter after the year 2000
+    @GetMapping("/first-winter-after/{year}")
+    public List<Mountains> getMountainsFirstAscendedInWinterAfter(@PathVariable int year) {
+        return mountainService.findByAscentsFirstWinterYearGreaterThan(year);
     }
 
-    // Delete a mountain by ID
-    @DeleteMapping("/{id}")
-    public String deleteMountain(@PathVariable String id) {
-        try {
-            mountainDao.deleteById(id);
-            return "Mountain with ID " + id + " has been deleted";
-        } catch (Exception e) {
-            return "Error deleting mountain: " + e.getMessage();
-        }
+    // 11. Get mountains excluding ascents and location fields
+    @GetMapping("/exclude/ascents-location")
+    public List<Mountains> getMountainsExcludingAscentsAndLocation() {
+        return mountainService.findAllExcludingAscentsAndLocation();
+    }
+
+    // 12. Get first three mountain peaks
+    @GetMapping("/top3")
+    public List<Mountains> getFirstThreeMountains() {
+        return mountainService.findFirstThreeMountains(PageRequest.of(0, 3));
     }
 }

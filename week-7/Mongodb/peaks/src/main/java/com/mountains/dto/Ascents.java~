@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 public class Ascents
 {
     private FirstAscend first;
-    private FirstAscend first_winter;
+    private FirstAscend firstWinter;
     private int total;
 }
