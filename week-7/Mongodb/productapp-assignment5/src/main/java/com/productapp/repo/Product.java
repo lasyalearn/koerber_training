@@ -7,6 +7,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Document(collection = "products")
 public class Product {
     @Id
@@ -22,7 +24,7 @@ public class Product {
         this.vendor = vendor;
         this.cost = cost;
     }
-    // getters
+    //getter
     public String getId() {
         return id;
     }
@@ -38,7 +40,7 @@ public class Product {
     public Double getCost() {
         return cost;
     }
-    //setters
+    //setter
     public void setId(String id) {
         this.id = id;
     }

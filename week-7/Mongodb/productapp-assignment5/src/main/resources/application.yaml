@@ -3,7 +3,7 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: productapp1
+      database: productapp
       repositories:
         enabled: true
   application:
